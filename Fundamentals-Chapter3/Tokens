@@ -1,0 +1,5 @@
+https://www.oreilly.com/library/view/python-in-a/0596100469/ch04s01.html
+
+Python breaks each logical line into a sequence of elementary lexical components known as tokens.
+Each token corresponds to a substring of the logical line.
+ The normal token types are identifiers, keywords, operators, delimiters, and literals
