@@ -1,0 +1,41 @@
+https://data-flair.training/blogs/python-operator/
+
+Python Operator falls into 7 categories:
+
+Python Arithmetic Operator
+Python Relational Operator
+Python Assignment Operator
+Python Logical Operator
+Python Membership Operator
+Python Identity Operator
+Python Bitwise Operator
+
+
+Arithmetic
+Add,Sub,Mul,Div,Floor Div,Exponentiation, Modulo
+
+Relational
+less than, greater than, less than or equal to, greater than or equal to, equal to, not equal to
+
+Assignment
+
+=, +=,*=,-=,/=.**=,&=,//=
+
+Logical Operator
+and, or , not
+
+Membership
+in,not in,
+
+Identity
+is,is not
+
+Bitwise
+Binary AND (&)
+Binary OR (|)
+Binary XOR (^)
+Binary One is complement (~)
+Binary Left Shift (<<)
+Binary Right Shift (>>)
+
+
