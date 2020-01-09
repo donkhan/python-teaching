@@ -1,4 +1,15 @@
-i,j = 12,3
+length = 5
+breadth = 4
 
-print(i)
-print(j)
+area = length * breadth
+print(area)
+
+
+length,breadth,height = 4,3
+
+print(height)
+
+area = length * breadth
+
+print(area)
+

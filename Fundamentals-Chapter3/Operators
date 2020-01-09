@@ -19,7 +19,7 @@ less than, greater than, less than or equal to, greater than or equal to, equal 
 
 Assignment
 
-=, +=,*=,-=,/=.**=,&=,//=
+=, +=,*=,-=,/=.**=,//=
 
 Logical Operator
 and, or , not
@@ -34,8 +34,25 @@ Bitwise
 Binary AND (&)
 Binary OR (|)
 Binary XOR (^)
-Binary One is complement (~)
+Binary One's is complement (~)
 Binary Left Shift (<<)
 Binary Right Shift (>>)
+
+
+OR
+F F F
+F T T
+T F T
+T T T
+
+XOR
+F F F
+F T T
+T F T
+T T F
+
+
+
+
 
 

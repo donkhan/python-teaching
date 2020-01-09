@@ -1,3 +1,6 @@
-name = input("Please Enter Your Name ")
-print(name)
 
+a = str(input("Enter ...."))
+
+a = eval(a)
+
+print a
