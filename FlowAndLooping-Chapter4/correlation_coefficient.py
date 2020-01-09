@@ -1,7 +1,9 @@
 import math
 
-x = [1,2,3,4]
-y = [3,4,9,12]
+#https://www.socscistatistics.com/tests/pearson/default2.aspx
+
+x = [1,2,3,4,5,6,7,8,9,10]
+y = [3,4,9,12,15,18,21,24,27,30]
 
 x_bar = 0
 y_bar = 0
