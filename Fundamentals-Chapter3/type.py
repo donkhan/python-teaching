@@ -26,3 +26,5 @@ print(type(blood_pressure))
 
 print(type(True))
 
+print(hex(id(body_temperature)))
+
