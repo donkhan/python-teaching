@@ -1,6 +1,8 @@
 
 
-x = int(input("Enter the value "))
+#x = int(input("Enter the value "))
+
+x = 20
 
 sum = 0
 i = 0

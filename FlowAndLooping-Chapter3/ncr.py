@@ -10,3 +10,4 @@ print(factorial(5))
 
 print(factorial(5)//(factorial(3)*factorial(2)))
 
+a,b = a+b,b+c
