@@ -20,5 +20,7 @@ print(first_name[1:3])
 print(first_name[3:])
 print(first_name[:5])
 print(first_name[-3:-1])
+print(first_name[1:-2])
+
 
 # String methods
