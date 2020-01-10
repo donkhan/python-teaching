@@ -21,5 +21,6 @@ def find_std(raw_values):
     #print numpy.std(numpy.array(raw_values))
 
 
-find_std([6,7,10,11,11,13,16,18,25])
-find_std([74, 72, 83, 96, 64, 79, 88, 69])
+#find_std([6,7,10,11,11,13,16,18,25])
+#find_std([74, 72, 83, 96, 64, 79, 88, 69])
+find_std([1,2,3])
