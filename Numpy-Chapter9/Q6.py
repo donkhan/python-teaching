@@ -5,6 +5,8 @@ print np.version.version
 a = np.arange(1,10)
 print a
 
+print(sum(a))
+
 # Q8. Print True...
 print a > 0
 
