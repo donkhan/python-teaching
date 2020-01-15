@@ -1,5 +1,6 @@
 import numpy as np
 
+# https://docs.scipy.org/doc/numpy/reference/routines.array-creation.html
 
 a = np.arange(2.3,4.5,0.1)
 print(a)
@@ -19,6 +20,14 @@ print(np.fromstring("1 2 3",dtype=int,sep=" "))
 
 print(np.empty((1,4),dtype=int))
 
+
+print(np.eye(2,dtype = int))
+
+a = np.array([[3,1], [1,2]])
+b = np.array([9,8])
+x = np.linalg.solve(a, b)
+
+print(x)
 
 
 
