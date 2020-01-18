@@ -1,5 +1,9 @@
 import numpy as np
 
+# { 1,2,3,4 }
+#  2 power n
+# { {1},{2},{3},{4},{1,2},{1,3},{1,4},{2,3},{2,4},{3,4},{1,2,3},{1,2,4},{1,3,4},{2,3,4},{1,2,3,4} ,NULL }
+
 
 def sub_lists(l):
     sub_list = [()]
@@ -10,5 +14,5 @@ def sub_lists(l):
     return sub_list
 
 
-x = np.array([1,2,3,4])
+x = np.array([1,2,3])
 print(sub_lists(x))
