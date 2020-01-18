@@ -7,3 +7,5 @@ for i in range(0,11):
                 print(i,  j ,k)
                 n += 1
 print(n)
+
+
