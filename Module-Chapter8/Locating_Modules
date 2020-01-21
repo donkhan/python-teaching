@@ -1,0 +1,7 @@
+When you import a module, the Python interpreter searches for the module in the following sequences −
+
+The current directory.
+If the module isn't found, Python then searches each directory in the shell variable PYTHONPATH.
+If all else fails, Python checks the default path. On UNIX, this default path is normally /usr/local/lib/python/.
+
+The module search path is stored in the system module sys as the sys.path variable. The sys.path variable contains the current directory, PYTHONPATH, and the installation-dependent default.
