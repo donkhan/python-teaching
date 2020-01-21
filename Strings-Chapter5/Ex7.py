@@ -9,3 +9,4 @@ translation = string.maketrans(firstString, secondString)
 # translate string
 print("Translated string:", string.translate(translation))
 
+# New code
