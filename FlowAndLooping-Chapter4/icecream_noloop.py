@@ -1,5 +1,11 @@
 # combination_with_repetition
 
+l = list()
+print(l)
+l.append(3)
+l.append(4)
+l.append('A')
+print(l)
 
 def cwr(n,r,l):
     c = 0
@@ -14,12 +20,14 @@ def cwr(n,r,l):
             c = c + cwr(n, r - 1, nl)
     return c
 
-print("Total Possibilities",cwr(10,3,list()))
+print("Total Possibilities",cwr(10,2,list()))
 
-
+'''
 import itertools
 
 
 l = list(itertools.combinations_with_replacement(['V','M',"C"],10))
 print(l)
 print(len(l))
+
+'''

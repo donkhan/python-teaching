@@ -3,7 +3,7 @@ import numpy as np
 
 print(np.__version__)
 
-print np.version.version
+print(np.version.version)
 
 a = np.arange(0,10)
 print(a)

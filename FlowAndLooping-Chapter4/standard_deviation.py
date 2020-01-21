@@ -3,6 +3,7 @@ import math
 
 # https://www.lboro.ac.uk/media/wwwlboroacuk/content/mlsc/downloads/var_stand_deviat_ungroup.pdf
 
+
 def find_std(raw_values):
     x_bar = 0
     total = 0

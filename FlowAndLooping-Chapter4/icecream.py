@@ -1,10 +1,19 @@
 
+# Vanilla, Chocolate, Mango, Strawberry
+#(10,0,0)
+#(0,10,0)
+#(0,0,10)
+#(9,1,0)
+#(1,9,0)
+#(0,1,9)
+#(8,2,0)
+
 n = 0
-for i in range(0,11):
-    for j in range(0,11):
-        for k in range(0,11):
-            if i + j + k == 10:
-                print(i,  j ,k)
+for vanilla in range(0,11):
+    for chocolate in range(0,11):
+        for mango in range(0,11):
+            if vanilla + chocolate + mango == 10:
+                print(vanilla,  chocolate ,mango)
                 n += 1
 print(n)
 

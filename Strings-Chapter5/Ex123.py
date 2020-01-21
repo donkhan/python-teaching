@@ -17,3 +17,5 @@ print(raw_string)
 
 escape_character = 'This is David\'s car'
 print(escape_character)
+
+print('David\'s')
