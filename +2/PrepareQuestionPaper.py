@@ -2,12 +2,26 @@ from random import randint
 from os import listdir
 from os.path import isfile, join
 
+
 def get_random():
     return randint(0,1000)
 
 
+def get_example_questions(line,chapter):
+    q = []
+    tokens = line.split("-")
+    s = int(tokens[0][2:])
+    e = int(tokens[1][2:])
+    for i in range(s,e+1):
+        question = chapter + " Example " + str(i)
+        q.append(question)
+    return q
+
+
 def get_questions(line,chapter):
     line = line[1:line.index(']')]
+    if line.startswith("Ex"):
+        return get_example_questions(line,chapter)
     q = []
     s = line[:line.index('-')]
     e = line[line.index('-')+1:]
@@ -50,6 +64,7 @@ def prepare(mark,all_questions_of_given_mark,total,constraints):
             break
     print(mark,selected_questions)
 
+
 def prepare_constraints():
     constraints = [{},{},{},{},{}]
     f = open("constraints","r")
@@ -91,7 +106,7 @@ def create_random_question_paper():
 files = []
 master_question_bank = [[],[],[],[],[]]
 mark_separation = {'1':0,'2':1,'3':2,'5':3,'10':4}
-totals = [1,1,1,3,1]
+totals = [1,3,2,4,1]
 
 def find_files():
     global files
