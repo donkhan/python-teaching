@@ -1,3 +1,9 @@
+from random import seed
+from random import randint
+
+def get_random():
+    return randint(0,1000)
+
 
 def get_questions(line,chapter):
     line = line[1:line.index(']')]
@@ -13,25 +19,53 @@ def get_questions(line,chapter):
     return q
 
 
+def can_add_question(question,questions,constraints):
+    chapter = question.split()[0]
+    eq = 0
+    for q in questions:
+        if q.split()[0] == chapter:
+            eq = eq + 1
+    constraint = constraints[chapter]
+    return  eq < constraint
+
+
+def prepare_5marks(all_questions_of_given_mark,total_questions):
+    questions = []
+    constraints ={
+        'DifferentialEquations': 1,
+        'IntegralCalculus': 1
+    }
+
+    q = 0
+    while q < total_questions:
+        r = get_random() % len(list)
+        question = all_questions_of_given_mark[r]
+        if can_add_question(question,questions,constraints):
+            questions.append(question)
+            q = q + 1
+    print(questions)
+
 from os import listdir
 from os.path import isfile, join
 files = [f for f in listdir(".") if isfile(join(".", f)) and not f.endswith(".py")]
-Q5 = []
+master_question_bank = [[],[],[],[],[]]
+mark_separation = {'1':0,'2':1,'3':2,'5':3,'10':4}
 
 for file in files:
     f = open(file,"r")
     for line in f:
         line = line.strip()
-
-        if line.endswith("5"):
-            if line.startswith("["):
-                Q5.extend(get_questions(line,file))
-            else:
-                Q5.append(file + " " +  line)
-
+        for key in mark_separation:
+            if line.endswith(key):
+                list = master_question_bank[mark_separation[key]]
+                if line.startswith("["):
+                    list.extend(get_questions(line,file))
+                else:
+                    list.append(file + " " +  line)
     f.close()
+prepare_5marks(master_question_bank[3],2)
 
-print(Q5)
+
 
 
 
