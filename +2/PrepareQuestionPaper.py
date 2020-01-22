@@ -1,5 +1,5 @@
-from random import seed
 from random import randint
+
 
 def get_random():
     return randint(0,1000)
@@ -29,13 +29,8 @@ def can_add_question(question,questions,constraints):
     return  eq < constraint
 
 
-def prepare_5marks(all_questions_of_given_mark,total_questions):
+def prepare(all_questions_of_given_mark,total_questions,constraints):
     questions = []
-    constraints ={
-        'DifferentialEquations': 1,
-        'IntegralCalculus': 1
-    }
-
     q = 0
     while q < total_questions:
         r = get_random() % len(list)
@@ -50,6 +45,12 @@ from os.path import isfile, join
 files = [f for f in listdir(".") if isfile(join(".", f)) and not f.endswith(".py")]
 master_question_bank = [[],[],[],[],[]]
 mark_separation = {'1':0,'2':1,'3':2,'5':3,'10':4}
+constraints_5mark ={
+        'DifferentialEquations': 1,
+        'IntegralCalculus': 1
+    }
+constraints = [{},{},{},constraints_5mark,{}]
+
 
 for file in files:
     f = open(file,"r")
@@ -63,7 +64,7 @@ for file in files:
                 else:
                     list.append(file + " " +  line)
     f.close()
-prepare_5marks(master_question_bank[3],2)
+prepare(master_question_bank[3],2,constraints[3])
 
 
 
