@@ -10,6 +10,9 @@ y_bar = 0
 x_sum = 0
 y_sum = 0
 
+for i in range(0,10):
+    pass    
+
 for i in range(0,len(x)):
     x_sum += x[i]
     y_sum += y[i]

@@ -29,28 +29,38 @@ def can_add_question(question,questions,constraints):
     return  eq < constraint
 
 
-def prepare(all_questions_of_given_mark,total_questions,constraints):
+def prepare(mark,all_questions_of_given_mark,total_questions,constraints):
+    #print(all_questions_of_given_mark,total_questions,constraints)
     questions = []
     q = 0
     while q < total_questions:
-        r = get_random() % len(list)
+        r = get_random() % len(all_questions_of_given_mark)
         question = all_questions_of_given_mark[r]
         if can_add_question(question,questions,constraints):
             questions.append(question)
             q = q + 1
-    print(questions)
+    print(mark , " Mark Questions - ",questions)
 
 from os import listdir
 from os.path import isfile, join
 files = [f for f in listdir(".") if isfile(join(".", f)) and not f.endswith(".py")]
 master_question_bank = [[],[],[],[],[]]
 mark_separation = {'1':0,'2':1,'3':2,'5':3,'10':4}
+
 constraints_5mark ={
         'DiscreteMathematics' : 1,
         'DifferentialEquations': 1,
         'IntegralCalculus': 1
     }
-constraints = [{},{},{},constraints_5mark,{}]
+
+constraints_1mark ={
+        'DiscreteMathematics' : 1,
+        'DifferentialEquations': 1,
+        'IntegralCalculus': 1
+    }
+
+constraints = [constraints_1mark,{},{},constraints_5mark,{}]
+totals = [1,0,0,3,0]
 
 
 for file in files:
@@ -65,7 +75,11 @@ for file in files:
                 else:
                     list.append(file + " " +  line[0:line.rindex("-")])
     f.close()
-prepare(master_question_bank[3],3,constraints[3])
+
+for mark in mark_separation.keys():
+    n = mark_separation.get(mark)
+    if mark == '5' or mark == '1':
+        prepare(mark,master_question_bank[n],totals[n],constraints[n])
 
 
 
