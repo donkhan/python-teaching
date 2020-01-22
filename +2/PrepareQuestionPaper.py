@@ -67,7 +67,7 @@ def prepare(mark,all_questions_of_given_mark,total,constraints):
 
 def prepare_constraints():
     constraints = [{},{},{},{},{}]
-    f = open("constraints","r")
+    f = open("data/constraints","r")
     for line in f:
         line = line.strip()
         if line == "":
@@ -86,7 +86,7 @@ def create_random_question_paper():
     find_files()
     constraints = prepare_constraints()
     for file in files:
-        f = open(file,"r")
+        f = open("./data/"+file,"r")
         for line in f:
             line = line.strip()
             for key in mark_separation:
@@ -110,7 +110,7 @@ totals = [1,3,2,4,1]
 
 def find_files():
     global files
-    files = [f for f in listdir(".") if isfile(join(".", f)) and not f.endswith(".py") and not f == 'constraints']
+    files = [f for f in listdir("./data/") if not f == 'constraints']
 
 
 create_random_question_paper()
