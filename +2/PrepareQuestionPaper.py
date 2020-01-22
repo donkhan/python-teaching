@@ -63,7 +63,7 @@ for file in files:
                 if line.startswith("["):
                     list.extend(get_questions(line,file))
                 else:
-                    list.append(file + " " +  line)
+                    list.append(file + " " +  line[0:line.rindex("-")])
     f.close()
 prepare(master_question_bank[3],3,constraints[3])
 
