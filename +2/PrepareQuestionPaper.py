@@ -27,70 +27,78 @@ def can_add_question(question,questions,constraints):
         if q.split()[0] == chapter:
             eq = eq + 1
     constraint = constraints[chapter]
-    return  eq < constraint
+    return eq < constraint
 
 
-def prepare(mark,all_questions_of_given_mark,total_questions,constraints):
-    #print(all_questions_of_given_mark,total_questions,constraints)
-    questions = []
-    q = 0
-    while q < total_questions:
+def prepare(mark,all_questions_of_given_mark,total,constraints):
+    #print(total,all_questions_of_given_mark)
+    selected_questions = []
+    failed = []
+    p = 0
+    while len(selected_questions) < total:
         r = get_random() % len(all_questions_of_given_mark)
         question = all_questions_of_given_mark[r]
-        if can_add_question(question,questions,constraints):
-            questions.append(question)
-            q = q + 1
-    print(mark , " Mark Questions - ",questions)
+        if can_add_question(question,selected_questions,constraints):
+            selected_questions.append(question)
+        else:
+            failed.append(question)
+        p = p + 1
+        if p == 100:
+            print("Problem i " , mark)
+            print(selected_questions)
+            print(failed)
+            break
+    print(mark,selected_questions)
 
-
-files = [f for f in listdir(".") if isfile(join(".", f)) and not f.endswith(".py")]
-master_question_bank = [[],[],[],[],[]]
-mark_separation = {'1':0,'2':1,'3':2,'5':3,'10':4}
-
-constraints_1mark ={
-        'DiscreteMathematics': 1,
-        'DifferentialEquations': 1,
-        'IntegralCalculus': 1}
-
-constraints_2mark ={
-        'DiscreteMathematics': 1,
-        'DifferentialEquations': 1,
-        'IntegralCalculus': 1}
-
-constraints_3mark ={
-        'DiscreteMathematics': 1,
-        'DifferentialEquations': 1,
-        'IntegralCalculus': 1}
-
-constraints_5mark ={
-        'DiscreteMathematics' : 1,
-        'DifferentialEquations': 1,
-        'IntegralCalculus': 1}
-
-constraints_10mark = {
-    'IntegralCalculus' : 1
-}
-
-constraints = [constraints_1mark,constraints_2mark,constraints_3mark,constraints_5mark,constraints_10mark]
-totals = [1,1,1,3,1]
-
-
-for file in files:
-    f = open(file,"r")
+def prepare_constraints():
+    constraints = [{},{},{},{},{}]
+    f = open("constraints","r")
     for line in f:
         line = line.strip()
-        for key in mark_separation:
-            if line.endswith(key):
-                list = master_question_bank[mark_separation[key]]
-                if line.startswith("["):
-                    list.extend(get_questions(line,file))
-                else:
-                    list.append(file + " " +  line[0:line.rindex("-")])
-    f.close()
+        if line == "":
+            continue
+        tokens = line.split("=")
+        no = int(tokens[1])
+        tokens = tokens[0].split("-")
+        chapter = tokens[0]
+        mark = tokens[1]
+        constraint = constraints[mark_separation[mark]]
+        constraint[chapter] = no
+    return constraints
 
-for mark in mark_separation.keys():
-    n = mark_separation.get(mark)
-    prepare(mark,master_question_bank[n],totals[n],constraints[n])
+
+def create_random_question_paper():
+    find_files()
+    constraints = prepare_constraints()
+    for file in files:
+        f = open(file,"r")
+        for line in f:
+            line = line.strip()
+            for key in mark_separation:
+                if line.endswith(key):
+                    list = master_question_bank[mark_separation[key]]
+                    if line.startswith("["):
+                        list.extend(get_questions(line,file))
+                    else:
+                      list.append(file + " " +  line[0:line.rindex("-")])
+        f.close()
+
+    for mark in mark_separation.keys():
+        n = mark_separation.get(mark)
+        constraint = constraints[n]
+        prepare(mark, master_question_bank[n], totals[n], constraint)
+
+files = []
+master_question_bank = [[],[],[],[],[]]
+mark_separation = {'1':0,'2':1,'3':2,'5':3,'10':4}
+totals = [1,1,1,3,1]
+
+def find_files():
+    global files
+    files = [f for f in listdir(".") if isfile(join(".", f)) and not f.endswith(".py") and not f == 'constraints']
+
+
+create_random_question_paper()
 
 
 

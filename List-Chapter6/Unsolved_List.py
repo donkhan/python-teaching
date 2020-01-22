@@ -1,5 +1,6 @@
 import statistics
 
+
 def q12(input):
     sum = 0
     for val in input:
@@ -33,8 +34,9 @@ def q14(input,x):
             freq = freq + 1
     return freq
 
+
 def q9(input):
-    sum  = 0
+    sum = 0
     for val in input:
         try:
             if val % 2 == 1:
@@ -43,25 +45,27 @@ def q9(input):
             pass
     return sum
 
+
 def q13(input):
     print(input)
     for i in range(1,len(input)-1,2):
         if type(input[i]) is int:
             input[i] = input[i] * 2
-        return input
+    return input
 
+# list  [0,11,22,33,44,"k","a",4]
+# index [0,1 ,2 ,3 ,4 ,5  ,6 ,7]
 
-#print(q16([3,25,23,6,35,8,14,45]))
-'''
 print(q9([3,4,'a','aaa',1,2]))
-print(q10([1,2,3]))
-print(q11([3,4,2,13,1]))
+#print(q13([0,11,22,33,44,"k","a",4]))
+#print(q16([3,25,23,6,35,8,14,45]))
 answer = q12([50,60,80])
 print(answer[1],answer[0])
 
-print(q13([0,1,2,3,4,"k","a",4]))
+
+'''
+print(q10([1,2,3]))
+print(q11([3,4,2,13,1]))
 print(q14([1,2,3,1,2,3],2))
 print(q15([10,20,30,40]))
-
-
 '''
