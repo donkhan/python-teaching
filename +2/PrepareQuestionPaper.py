@@ -1,5 +1,6 @@
 from random import randint
-
+from os import listdir
+from os.path import isfile, join
 
 def get_random():
     return randint(0,1000)
@@ -41,26 +42,37 @@ def prepare(mark,all_questions_of_given_mark,total_questions,constraints):
             q = q + 1
     print(mark , " Mark Questions - ",questions)
 
-from os import listdir
-from os.path import isfile, join
+
 files = [f for f in listdir(".") if isfile(join(".", f)) and not f.endswith(".py")]
 master_question_bank = [[],[],[],[],[]]
 mark_separation = {'1':0,'2':1,'3':2,'5':3,'10':4}
 
+constraints_1mark ={
+        'DiscreteMathematics': 1,
+        'DifferentialEquations': 1,
+        'IntegralCalculus': 1}
+
+constraints_2mark ={
+        'DiscreteMathematics': 1,
+        'DifferentialEquations': 1,
+        'IntegralCalculus': 1}
+
+constraints_3mark ={
+        'DiscreteMathematics': 1,
+        'DifferentialEquations': 1,
+        'IntegralCalculus': 1}
+
 constraints_5mark ={
         'DiscreteMathematics' : 1,
         'DifferentialEquations': 1,
-        'IntegralCalculus': 1
-    }
+        'IntegralCalculus': 1}
 
-constraints_1mark ={
-        'DiscreteMathematics' : 1,
-        'DifferentialEquations': 1,
-        'IntegralCalculus': 1
-    }
+constraints_10mark = {
+    'IntegralCalculus' : 1
+}
 
-constraints = [constraints_1mark,{},{},constraints_5mark,{}]
-totals = [1,0,0,3,0]
+constraints = [constraints_1mark,constraints_2mark,constraints_3mark,constraints_5mark,constraints_10mark]
+totals = [1,1,1,3,1]
 
 
 for file in files:
@@ -78,8 +90,7 @@ for file in files:
 
 for mark in mark_separation.keys():
     n = mark_separation.get(mark)
-    if mark == '5' or mark == '1':
-        prepare(mark,master_question_bank[n],totals[n],constraints[n])
+    prepare(mark,master_question_bank[n],totals[n],constraints[n])
 
 
 

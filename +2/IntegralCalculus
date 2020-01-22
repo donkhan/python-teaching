@@ -1,3 +1,4 @@
+# By Inspection
 Exa 1.1 - 1
 Exa 1.2 - 1
 Exa 1.3 - 1
@@ -8,12 +9,27 @@ Exa 3.1 - 1
 Exa 3.2 - 1
 Exa 3.3 - 1
 Exa 4 - 2
-
 [7.1.1-7.1.10] - 1
 [7.1.11-7.1.22] - 2
+# By Substitution
+Exa 5.1 - 1
+Exa 5.2 - 1
+Exa 5.3 - 2
+Exa 5.4 - 2
+Exa 6.1 - 3
+Exa 6.2 - 3
+Exa 6.3 - 3
+[7.2.1-7.2.9] - 2
+[7.2.10-7.2.37] - 3
+7.2.38 - 2
 
+# Trignometric Function
+Exa 7.1 - 3
+Exa 7.2 - 3
+Exa 7.3 - 3
+[7.3.1-7.3.24] - 3
 
-
+# Integration of Some Important Functions
 Exa 8.1 - 5
 Exa 8.2 - 5
 Exa 9.1 - 5
@@ -21,5 +37,62 @@ Exa 9.2 - 5
 Exa 9.3 - 5
 Exa 10.1 - 5
 Exa 10.2 - 5
+[7.4.1-7.4.25] - 5
 
-[7.4.10-7.4.23] - 5
+#Partial Fractions
+Ex 11 - 2
+Ex 12 - 2
+Ex 13 - 3
+Ex 14 - 3
+Ex 15 - 3
+[7.5.1-7.5.5] - 2
+[7.5.6-7.5.21] - 3
+7.5.22 - 2
+
+#Integration By parts
+Ex 17 - 3
+Ex 18 - 2
+Ex 19 - 2
+Ex 20 - 3
+Ex 21 - 3
+Ex 22.1 - 3
+Ex 22.2 - 3
+[7.6.1-7.6.8] - 2
+[7.6.9-7.6.22] - 3
+[7.6.23-7.6.24] - 2
+
+# Integral of Some more types
+Ex 23 - 5
+Ex 24 - 5
+[7.7.1-7.7.11] - 5
+
+# Limits of Sum
+Ex 25 - 2
+Ex 26 - 3
+[7.8.1-7.8.3] - 2
+[7.8.4-7.8.6] - 3
+
+# Definite Integrals By Inspection
+Ex 27.1 - 2
+Ex 27.2 - 2
+Ex 27.3 - 3
+Ex 27.4 - 3
+[7.9.1-7.9.6] - 2
+[7.9.7-7.9.20] - 3
+7.9.21 - 2
+
+# Definite Integrals by Substitution
+Ex 28 - 2
+Ex 29 - 2
+[7.9.1-7.9.2] - 2
+[7.9.3-7.9.10] - 3
+
+# Integration Properties
+Ex 30 - 10
+Ex 31 - 10
+Ex 32 - 10
+Ex 33 - 10
+Ex 34 - 10
+Ex 35 - 10
+Ex 36 - 10
+[7.10.1-7.10.21] - 10
