@@ -46,6 +46,7 @@ files = [f for f in listdir(".") if isfile(join(".", f)) and not f.endswith(".py
 master_question_bank = [[],[],[],[],[]]
 mark_separation = {'1':0,'2':1,'3':2,'5':3,'10':4}
 constraints_5mark ={
+        'DiscreteMathematics' : 1,
         'DifferentialEquations': 1,
         'IntegralCalculus': 1
     }
@@ -64,7 +65,7 @@ for file in files:
                 else:
                     list.append(file + " " +  line)
     f.close()
-prepare(master_question_bank[3],2,constraints[3])
+prepare(master_question_bank[3],3,constraints[3])
 
 
 
