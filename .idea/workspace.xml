@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c69e82a-52cb-48a6-a19e-c0190c6015ef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/+2/data/InverseTrignometry" beforeDir="false" afterPath="$PROJECT_DIR$/+2/data/InverseTrigonometry" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/+2/data/LinearProgramming" beforeDir="false" afterPath="$PROJECT_DIR$/+2/data/LinearProgramming" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/+2/data/constraints.data" beforeDir="false" afterPath="$PROJECT_DIR$/+2/data/constraints.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/+2/data/total_questions.data" beforeDir="false" afterPath="$PROJECT_DIR$/+2/data/total_questions.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -17,20 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PrepareQuestionPaper.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PrepareQuestionPaper.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/+2/PrepareQuestionPaper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinearProgramming" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/+2/data/LinearProgramming">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="85">
+              <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -38,22 +27,17 @@
       <file leaf-file-name="DataEntry.data" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/+2/data/DataEntry.data">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="17">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="total_questions.data" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/+2/data/total_questions.data">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="InverseTrigonometry" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/+2/data/InverseTrigonometry">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -61,8 +45,22 @@
       <file leaf-file-name="constraints.data" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/+2/data/constraints.data">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="34">
+              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiscreteMathematics" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/+2/data/DiscreteMathematics">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Determinants" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/+2/data/Determinants">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -93,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FlowAndLooping-Chapter3/iftest.py" />
         <option value="$PROJECT_DIR$/FlowAndLooping-Chapter3/whiletest.py" />
         <option value="$PROJECT_DIR$/FlowAndLooping-Chapter3/nested_loop.py" />
         <option value="$PROJECT_DIR$/FlowAndLooping-Chapter4/Pblm23.py" />
@@ -138,12 +135,13 @@
         <option value="$PROJECT_DIR$/+2/data/total_questions" />
         <option value="$PROJECT_DIR$/+2/data/DataEntry" />
         <option value="$PROJECT_DIR$/+2/data/Matrix" />
-        <option value="$PROJECT_DIR$/+2/PrepareQuestionPaper.py" />
-        <option value="$PROJECT_DIR$/+2/data/DataEntry.data" />
         <option value="$PROJECT_DIR$/+2/data/LinearProgramming" />
+        <option value="$PROJECT_DIR$/+2/data/InverseTrigonometry" />
+        <option value="$PROJECT_DIR$/+2/data/DataEntry.data" />
+        <option value="$PROJECT_DIR$/+2/data/Determinants" />
         <option value="$PROJECT_DIR$/+2/data/constraints.data" />
         <option value="$PROJECT_DIR$/+2/data/total_questions.data" />
-        <option value="$PROJECT_DIR$/+2/data/InverseTrigonometry" />
+        <option value="$PROJECT_DIR$/+2/PrepareQuestionPaper.py" />
       </list>
     </option>
   </component>
@@ -447,7 +445,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579778602700</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Inverse Trigonometry done">
+      <created>1579779594535</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1579779594535</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Determinants Done">
+      <created>1579780495865</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1579780495865</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -537,7 +549,9 @@
     <MESSAGE value="Vector Algebra is done&#10;Moved META INFO fully away from the source code" />
     <MESSAGE value="LPP is Done" />
     <MESSAGE value="Matrix Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Matrix Done" />
+    <MESSAGE value="Inverse Trigonometry done" />
+    <MESSAGE value="Determinants Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Determinants Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -552,8 +566,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FlowAndLooping-Chapter3/fortest2.py" />
-    <entry file="file://$PROJECT_DIR$/FlowAndLooping-Chapter3/nested_loop.py" />
     <entry file="file://$PROJECT_DIR$/FlowAndLooping-Chapter4/Pblm26.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -816,34 +828,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/+2/data/InverseTrigonometry">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/+2/data/DataEntry.data">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="17">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/+2/data/DiscreteMathematics">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/+2/data/Determinants">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/+2/data/constraints.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/+2/data/total_questions.data">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/+2/data/constraints.data">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/+2/PrepareQuestionPaper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/+2/data/InverseTrigonometry">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="85">
+          <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
         </state>
       </provider>
     </entry>
