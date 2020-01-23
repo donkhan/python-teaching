@@ -53,13 +53,15 @@ def prepare(mark,all_questions_of_given_mark,total,constraints):
         question = all_questions_of_given_mark[r]
         if can_add_question(question,selected_questions,constraints):
             selected_questions.append(question)
+            all_questions_of_given_mark.remove(question)
         else:
             failed.append(question)
         p = p + 1
-        if p == 100:
-            print("Problem i " , mark)
-            print(selected_questions)
-            print(failed)
+        if p == 1000:
+            print("Problem in mark " , mark)
+            print("All Questions ",all_questions_of_given_mark)
+            print("Selected questions ",selected_questions)
+            print("Choosen and Rejected questions",failed)
             break
     print(mark,selected_questions)
 
@@ -100,7 +102,8 @@ def create_random_question_paper():
     for mark in mark_separation.keys():
         n = mark_separation.get(mark)
         constraint = constraints[n]
-        prepare(mark, master_question_bank[n], totals[n], constraint)
+        if mark == '2':
+            prepare(mark, master_question_bank[n], totals[n], constraint)
 
 files = []
 master_question_bank = [[],[],[],[],[]]
