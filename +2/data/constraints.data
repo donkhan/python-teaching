@@ -1,4 +1,4 @@
-DiscreteMathematics-1=0
+DiscreteMathematics-1=1
 InverseTrigonometry-1=1
 Matrix-1=1
 Determinants-1=0
@@ -12,7 +12,7 @@ VectorAlgebra-1=1
 LinearProgramming-1=1
 Probability-1=0
 
-DiscreteMathematics-2=0
+DiscreteMathematics-2=1
 InverseTrigonometry-2=2
 Matrix-2=1
 Determinants-2=0
