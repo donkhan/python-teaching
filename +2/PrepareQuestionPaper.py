@@ -102,8 +102,7 @@ def create_random_question_paper():
     for mark in mark_separation.keys():
         n = mark_separation.get(mark)
         constraint = constraints[n]
-        if mark == '2':
-            prepare(mark, master_question_bank[n], totals[n], constraint)
+        prepare(mark, master_question_bank[n], totals[n], constraint)
 
 files = []
 master_question_bank = [[],[],[],[],[]]
