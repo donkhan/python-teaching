@@ -92,11 +92,11 @@ def create_random_question_paper():
             line = line.strip()
             for key in mark_separation:
                 if line.endswith(key):
-                    list = master_question_bank[mark_separation[key]]
+                    questions = master_question_bank[mark_separation[key]]
                     if line.startswith("["):
-                        list.extend(get_questions(line,file))
+                        questions.extend(get_questions(line,file))
                     else:
-                      list.append(file + " " +  line[0:line.rindex("-")])
+                        questions.append(file + " " +  line[0:line.rindex("-")])
         f.close()
 
     for mark in mark_separation.keys():
