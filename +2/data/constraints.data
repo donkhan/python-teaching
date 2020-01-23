@@ -8,6 +8,7 @@ IntegralCalculus-1=1
 ApplicationOfIntegrals-1=1
 DifferentialEquations-1=1
 VectorAlgebra-1=1
+3DGeometry-1=0
 LinearProgramming-1=1
 Probability-1=0
 
@@ -21,6 +22,7 @@ IntegralCalculus-2=1
 ApplicationOfIntegrals-2=0
 DifferentialEquations-2=1
 VectorAlgebra-2=1
+3DGeometry-2=1
 LinearProgramming-2=0
 Probability-2=1
 
@@ -35,6 +37,7 @@ IntegralCalculus-3=1
 ApplicationOfIntegrals-3=1
 DifferentialEquations-3=1
 VectorAlgebra-3=1
+3DGeometry-3=1
 LinearProgramming-3=0
 Probability-3=1
 
@@ -48,6 +51,7 @@ ApplicationOfIntegrals-5=1
 IntegralCalculus-5=1
 DifferentialEquations-5=1
 VectorAlgebra-5=1
+3DGeometry-5=1
 LinearProgramming-5=0
 Probability-5=1
 
@@ -61,6 +65,7 @@ IntegralCalculus-10=1
 ApplicationOfIntegrals-10=0
 DifferentialEquations-10=0
 VectorAlgebra-10=1
+3DGeometry-10=0
 LinearProgramming-10=1
 Probability-10=1
 
