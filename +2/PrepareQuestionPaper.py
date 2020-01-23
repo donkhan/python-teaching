@@ -99,7 +99,9 @@ def create_random_question_paper():
                     else:
                         questions.append(file + " " +  line[0:line.rindex("-")])
         f.close()
+    prepare_and_print(mark_separation,master_question_bank,totals,constraints)
 
+def prepare_and_print(mark_separation,master_question_bank,totals,constraints):
     for mark in mark_separation.keys():
         n = mark_separation.get(mark)
         constraint = constraints[n]
