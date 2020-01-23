@@ -73,7 +73,6 @@ def prepare_constraints():
         line = line.strip()
         if line == "":
             continue
-        print(line)
         tokens = line.split("=")
         no = int(tokens[1])
         tokens = tokens[0].split("-")
