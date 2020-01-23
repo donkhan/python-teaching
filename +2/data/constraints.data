@@ -2,12 +2,14 @@ DiscreteMathematics-1=1
 IntegralCalculus-1=1
 DifferentialEquations-1=1
 VectorAlgebra-1=1
+LinearProgramming-1=1
 Probability-1=0
 
 DiscreteMathematics-2=0
 IntegralCalculus-2=1
 DifferentialEquations-2=1
 VectorAlgebra-2=1
+LinearProgramming-2=0
 Probability-2=1
 
 
@@ -15,17 +17,20 @@ DiscreteMathematics-3=1
 IntegralCalculus-3=1
 DifferentialEquations-3=1
 VectorAlgebra-3=1
+LinearProgramming-3=0
 Probability-3=1
 
 DiscreteMathematics-5=1
 IntegralCalculus-5=1
 DifferentialEquations-5=1
 VectorAlgebra-5=1
+LinearProgramming-5=0
 Probability-5=1
 
 DiscreteMathematics-10=0
 IntegralCalculus-10=1
 DifferentialEquations-10=0
 VectorAlgebra-10=1
+LinearProgramming-10=1
 Probability-10=1
 
