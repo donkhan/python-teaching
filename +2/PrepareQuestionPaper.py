@@ -104,14 +104,14 @@ def create_random_question_paper():
         constraint = constraints[n]
         prepare(mark, master_question_bank[n], totals[n], constraint)
 
+def find_files():
+    global files
+    files = [f for f in listdir("./data/") if not f == 'constraints']
+
 files = []
 master_question_bank = [[],[],[],[],[]]
 mark_separation = {'1':0,'2':1,'3':2,'5':3,'10':4}
 totals = [1,3,2,4,1]
-
-def find_files():
-    global files
-    files = [f for f in listdir("./data/") if not f == 'constraints']
 
 
 create_random_question_paper()
