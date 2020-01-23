@@ -1,6 +1,5 @@
 from random import randint
 from os import listdir
-from os.path import isfile, join
 
 
 def get_random():
