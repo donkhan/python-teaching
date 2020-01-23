@@ -44,7 +44,6 @@ def can_add_question(question,questions,constraints):
 
 
 def prepare(mark,all_questions_of_given_mark,total,constraints):
-    #print(total,all_questions_of_given_mark)
     selected_questions = []
     failed = []
     p = 0
@@ -66,7 +65,7 @@ def prepare(mark,all_questions_of_given_mark,total,constraints):
     print(mark,selected_questions)
 
 
-def prepare_constraints():
+def prepare_constraints(mark_map):
     constraints = [{},{},{},{},{}]
     f = open("data/constraints.data","r")
     for line in f:
@@ -78,28 +77,31 @@ def prepare_constraints():
         tokens = tokens[0].split("-")
         chapter = tokens[0]
         mark = tokens[1]
-        constraint = constraints[mark_separation[mark]]
+        constraint = constraints[mark_map[mark]]
         constraint[chapter] = no
     return constraints
 
 
 def create_random_question_paper():
-    find_files()
-    read_total_questions()
-    constraints = prepare_constraints()
+    mark_map = {'1': 0, '2': 1, '3': 2, '5': 3, '10': 4}
+    files = find_files()
+    totals = read_total_questions()
+    constraints = prepare_constraints(mark_map)
+    master_question_bank = [[], [], [], [], []]
     for file in files:
         f = open("./data/"+file,"r")
         for line in f:
             line = line.strip()
-            for key in mark_separation:
+            for key in mark_map:
                 if line.endswith(key):
-                    questions = master_question_bank[mark_separation[key]]
+                    questions = master_question_bank[mark_map[key]]
                     if line.startswith("["):
                         questions.extend(get_questions(line,file))
                     else:
                         questions.append(file + " " +  line[0:line.rindex("-")])
         f.close()
-    prepare_and_print(mark_separation,master_question_bank,totals,constraints)
+    prepare_and_print(mark_map, master_question_bank, totals, constraints)
+
 
 def prepare_and_print(mark_separation,master_question_bank,totals,constraints):
     for mark in mark_separation.keys():
@@ -109,22 +111,18 @@ def prepare_and_print(mark_separation,master_question_bank,totals,constraints):
 
 
 def find_files():
-    global files
-    files = [f for f in listdir("./data/") if not f.endswith(".data")]
+    return [f for f in listdir("./data/") if not f.endswith(".data")]
 
 
 def read_total_questions():
+    totals = []
     f = open("data/total_questions.data", "r")
     for line in f:
         line = line.strip()
         if line == "":
             continue
         totals.append(int(line))
-
-files = []
-master_question_bank = [[],[],[],[],[]]
-mark_separation = {'1':0,'2':1,'3':2,'5':3,'10':4}
-totals = []
+    return totals
 
 
 create_random_question_paper()

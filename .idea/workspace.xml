@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c69e82a-52cb-48a6-a19e-c0190c6015ef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/+2/data/3DGeometry" beforeDir="false" afterPath="$PROJECT_DIR$/+2/data/3DGeometry" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/+2/data/constraints.data" beforeDir="false" afterPath="$PROJECT_DIR$/+2/data/constraints.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/+2/data/total_questions.data" beforeDir="false" afterPath="$PROJECT_DIR$/+2/data/total_questions.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/+2/PrepareQuestionPaper.py" beforeDir="false" afterPath="$PROJECT_DIR$/+2/PrepareQuestionPaper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,47 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PrepareQuestionPaper.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PrepareQuestionPaper.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/+2/PrepareQuestionPaper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataEntry.data" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/+2/data/DataEntry.data">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3DGeometry" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/+2/data/3DGeometry">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="total_questions.data" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/+2/data/total_questions.data">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="constraints.data" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/+2/data/constraints.data">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state relative-caret-position="160">
+              <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -87,7 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FlowAndLooping-Chapter4/Pblm25.py" />
         <option value="$PROJECT_DIR$/FlowAndLooping-Chapter4/Pblm26.py" />
         <option value="$PROJECT_DIR$/Strings-Chapter5/P11_12_13.py" />
         <option value="$PROJECT_DIR$/Strings-Chapter5/Chapter5_123.py" />
@@ -130,14 +91,15 @@
         <option value="$PROJECT_DIR$/+2/data/InverseTrigonometry" />
         <option value="$PROJECT_DIR$/+2/data/Determinants" />
         <option value="$PROJECT_DIR$/+2/data/Differentiation" />
-        <option value="$PROJECT_DIR$/+2/PrepareQuestionPaper.py" />
         <option value="$PROJECT_DIR$/+2/data/ApplicationOfDerivatives" />
         <option value="$PROJECT_DIR$/+2/data/DifferentialEquations" />
         <option value="$PROJECT_DIR$/+2/data/ApplicationOfIntegrals" />
-        <option value="$PROJECT_DIR$/+2/data/DataEntry.data" />
-        <option value="$PROJECT_DIR$/+2/data/constraints.data" />
         <option value="$PROJECT_DIR$/+2/data/total_questions.data" />
         <option value="$PROJECT_DIR$/+2/data/3DGeometry" />
+        <option value="$PROJECT_DIR$/+2/data/constraints.data" />
+        <option value="$PROJECT_DIR$/+2/data/DiscreteMathematics" />
+        <option value="$PROJECT_DIR$/+2/data/DataEntry.data" />
+        <option value="$PROJECT_DIR$/+2/PrepareQuestionPaper.py" />
       </list>
     </option>
   </component>
@@ -164,12 +126,6 @@
               <item name="python-teaching" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-teaching" type="462c0819:PsiDirectoryNode" />
               <item name="+2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-teaching" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-teaching" type="462c0819:PsiDirectoryNode" />
-              <item name="+2" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python-teaching" type="b2602c69:ProjectViewProjectNode" />
@@ -497,19 +453,33 @@
       <option name="project" value="LOCAL" />
       <updated>1579789793655</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="3D Geometry done">
+      <created>1579790336995</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1579790336995</updated>
+    </task>
+    <task id="LOCAL-00027" summary="3D Geometry done">
+      <created>1579791214968</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1579791214968</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24590164" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24590164" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5027322" side_tool="true" visible="true" weight="0.29421768" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.21258503" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49726775" visible="true" weight="0.29421768" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49726775" visible="true" weight="0.29421768" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -593,7 +563,8 @@
     <MESSAGE value="Application of Derivatives done" />
     <MESSAGE value="Differential Equations done" />
     <MESSAGE value="Application of Integrals done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Application of Integrals done" />
+    <MESSAGE value="3D Geometry done" />
+    <option name="LAST_COMMIT_MESSAGE" value="3D Geometry done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -860,22 +831,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/+2/PrepareQuestionPaper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/+2/data/ApplicationOfDerivatives">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/+2/data/DiscreteMathematics">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/+2/data/DifferentialEquations">
       <provider selected="true" editor-type-id="text-editor">
@@ -891,20 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/+2/data/DataEntry.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/+2/data/constraints.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/+2/data/total_questions.data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -914,8 +861,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/+2/data/3DGeometry">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="187">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/+2/data/constraints.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/+2/data/DiscreteMathematics">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/+2/data/DataEntry.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/+2/PrepareQuestionPaper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
         </state>
       </provider>
     </entry>
