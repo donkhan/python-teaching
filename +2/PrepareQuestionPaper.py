@@ -62,7 +62,7 @@ def prepare(mark,all_questions_of_given_mark,total,constraints):
             print("Selected questions ",selected_questions)
             print("Choosen and Rejected questions",failed)
             break
-    print(mark,selected_questions)
+    print(mark,len(selected_questions),selected_questions)
 
 
 def prepare_constraints(mark_map):

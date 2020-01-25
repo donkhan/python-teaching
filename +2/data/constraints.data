@@ -1,16 +1,16 @@
 DiscreteMathematics-1=1
 InverseTrigonometry-1=1
 Matrix-1=1
-Determinants-1=0
+Determinants-1=1
 Differentiation-1=1
 ApplicationOfDerivatives-1=0
 IntegralCalculus-1=1
-ApplicationOfIntegrals-1=1
+ApplicationOfIntegrals-1=0
 DifferentialEquations-1=1
 VectorAlgebra-1=1
 3DGeometry-1=0
 LinearProgramming-1=1
-Probability-1=0
+Probability-1=1
 
 DiscreteMathematics-2=1
 InverseTrigonometry-2=2
