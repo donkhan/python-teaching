@@ -45,6 +45,7 @@ def can_add_question(question,questions,constraints):
 
 def prepare(mark,all_questions_of_given_mark,total,constraints):
     selected_questions = []
+    #print(mark, len(all_questions_of_given_mark))
     failed = []
     p = 0
     while len(selected_questions) < total:

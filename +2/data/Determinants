@@ -26,3 +26,4 @@
 [4.6.1-4.6.16] - 5
 
 4.5.1 If A is invertible of order 2*2 then find |inverse(A)| - 1
+4.5.2 If A is square of Matrix 3*3 then find |adj(A)|
