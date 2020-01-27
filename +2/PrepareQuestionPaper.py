@@ -20,6 +20,7 @@ def can_add_question(question,questions,constraints):
 
 def prepare(mark,all_questions_of_given_mark,total,constraints):
     selected_questions = []
+    #print(mark, len(all_questions_of_given_mark))
     failed = []
     p = 0
     while len(selected_questions) < total:
@@ -37,7 +38,7 @@ def prepare(mark,all_questions_of_given_mark,total,constraints):
             print("Selected questions ",selected_questions)
             print("Chosen and Rejected questions",failed)
             break
-    print(mark,selected_questions)
+    print(mark,len(selected_questions),selected_questions)
 
 
 def create_random_question_paper():
