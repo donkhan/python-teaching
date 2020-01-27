@@ -1,37 +1,12 @@
 from random import randint
 from os import listdir
 
+from question_paper_reader import *
+from total_reader import *
+from constraint_reader import *
 
 def get_random():
     return randint(0,1000)
-
-
-def get_example_questions(line,chapter):
-    q = []
-    tokens = line.split("-")
-    s = int(tokens[0][2:])
-    e = int(tokens[1][2:])
-    for i in range(s,e+1):
-        question = chapter + " Example " + str(i)
-        q.append(question)
-    return q
-
-
-def get_questions(line,chapter):
-    line = line[1:line.index(']')]
-    if line.startswith("Ex"):
-        return get_example_questions(line,chapter)
-    q = []
-    s = line[:line.index('-')]
-    e = line[line.index('-')+1:]
-    ex = s[:s.rindex('.')]
-    start = int(s.split(".")[2])
-    end = int(e.split(".")[2])
-    for i in range(start,end+1):
-        question = chapter + " " + ex + "." + str(i)
-        q.append(question)
-    return q
-
 
 def can_add_question(question,questions,constraints):
     chapter = question.split()[0]
@@ -60,26 +35,9 @@ def prepare(mark,all_questions_of_given_mark,total,constraints):
             print("Problem in mark " , mark)
             print("All Questions ",all_questions_of_given_mark)
             print("Selected questions ",selected_questions)
-            print("Choosen and Rejected questions",failed)
+            print("Chosen and Rejected questions",failed)
             break
     print(mark,selected_questions)
-
-
-def prepare_constraints(mark_map):
-    constraints = [{},{},{},{},{}]
-    f = open("data/constraints.data","r")
-    for line in f:
-        line = line.strip()
-        if line == "":
-            continue
-        tokens = line.split("=")
-        no = int(tokens[1])
-        tokens = tokens[0].split("-")
-        chapter = tokens[0]
-        mark = tokens[1]
-        constraint = constraints[mark_map[mark]]
-        constraint[chapter] = no
-    return constraints
 
 
 def create_random_question_paper():
@@ -112,17 +70,6 @@ def prepare_and_print(mark_separation,master_question_bank,totals,constraints):
 
 def find_files():
     return [f for f in listdir("./data/") if not f.endswith(".data")]
-
-
-def read_total_questions():
-    totals = []
-    f = open("data/total_questions.data", "r")
-    for line in f:
-        line = line.strip()
-        if line == "":
-            continue
-        totals.append(int(line))
-    return totals
 
 
 create_random_question_paper()
