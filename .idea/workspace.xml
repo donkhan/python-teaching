@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c69e82a-52cb-48a6-a19e-c0190c6015ef" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/+2/data_file_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/+2/printQuestions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/+2/PrepareQuestionPaper.py" beforeDir="false" afterPath="$PROJECT_DIR$/+2/PrepareQuestionPaper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constraint_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/+2/constraint_reader.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +17,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PrepareQuestionPaper.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrepareQuestionPaper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/+2/PrepareQuestionPaper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="printQuestions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/+2/printQuestions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_file_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/+2/data_file_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="constraint_reader.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/+2/constraint_reader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="total_reader.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/+2/total_reader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question_paper_reader.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/+2/question_paper_reader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -49,12 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FlowAndLooping-Chapter4/Pblm26.py" />
-        <option value="$PROJECT_DIR$/Strings-Chapter5/P11_12_13.py" />
-        <option value="$PROJECT_DIR$/Strings-Chapter5/Chapter5_123.py" />
-        <option value="$PROJECT_DIR$/Strings-Chapter5/Chapter5_456.py" />
-        <option value="$PROJECT_DIR$/FlowAndLooping-Chapter4/Pblm23_udf.py" />
-        <option value="$PROJECT_DIR$/FlowAndLooping-Chapter4/Pblm24.py" />
         <option value="$PROJECT_DIR$/Numpy-Chapter9/Q6.py" />
         <option value="$PROJECT_DIR$/Numpy-Chapter9/Theory" />
         <option value="$PROJECT_DIR$/Numpy-Chapter9/array.py" />
@@ -99,12 +147,19 @@
         <option value="$PROJECT_DIR$/+2/data/constraints.data" />
         <option value="$PROJECT_DIR$/+2/data/DiscreteMathematics" />
         <option value="$PROJECT_DIR$/+2/data/DataEntry.data" />
+        <option value="$PROJECT_DIR$/+2/reader.py" />
+        <option value="$PROJECT_DIR$/+2/question_paper_reader.py" />
+        <option value="$PROJECT_DIR$/+2/total_reader.py" />
+        <option value="$PROJECT_DIR$/constraint_reader.py" />
+        <option value="$PROJECT_DIR$/+2/data_file_utils.py" />
         <option value="$PROJECT_DIR$/+2/PrepareQuestionPaper.py" />
+        <option value="$PROJECT_DIR$/+2/printQuestions.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="24" />
+    <option name="x" value="-35" />
+    <option name="y" value="61" />
     <option name="width" value="1440" />
     <option name="height" value="825" />
   </component>
@@ -114,7 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,20 +184,23 @@
             <path>
               <item name="python-teaching" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-teaching" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings-Chapter5" type="462c0819:PsiDirectoryNode" />
+              <item name="Module-Chapter8" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/msc/Networks" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\PycharmProjects\python-teaching\+2" />
       <recent name="C:\Users\ADMIN\PycharmProjects\python-teaching\+2\data" />
     </key>
   </component>
@@ -159,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PrepareQuestionPaper">
+  <component name="RunManager" selected="Python.printQuestions">
     <configuration name="Ex123" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-teaching" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,24 +271,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unsolved (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-teaching" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/List-Chapter6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\ADMIN\PycharmProjects\python-teaching\List-Chapter6\Unsolved_List.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="Unsolved_List" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-teaching" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,20 +289,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="printQuestions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-teaching" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/+2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/+2/printQuestions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Unsolved (1)" />
       <item itemvalue="Python.Unsolved_List" />
       <item itemvalue="Python.PrepareQuestionPaper" />
       <item itemvalue="Python.Ex123" />
       <item itemvalue="Python.Ex456" />
+      <item itemvalue="Python.printQuestions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.printQuestions" />
         <item itemvalue="Python.PrepareQuestionPaper" />
         <item itemvalue="Python.Unsolved_List" />
         <item itemvalue="Python.Ex456" />
         <item itemvalue="Python.Ex123" />
-        <item itemvalue="Python.Unsolved (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +524,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579791214968</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Global variables are removed">
+      <created>1579794021892</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1579794021892</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Modularized">
+      <created>1580142957997</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1580142957997</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -476,10 +547,10 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24590164" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5027322" side_tool="true" visible="true" weight="0.29421768" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5042935" side_tool="true" visible="true" weight="0.29421768" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.21258503" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49726775" visible="true" weight="0.29421768" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49570647" visible="true" weight="0.29421768" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -496,22 +567,22 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24590164" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22278911" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.21258503" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22278911" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39965987" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.21258503" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -564,7 +635,9 @@
     <MESSAGE value="Differential Equations done" />
     <MESSAGE value="Application of Integrals done" />
     <MESSAGE value="3D Geometry done" />
-    <option name="LAST_COMMIT_MESSAGE" value="3D Geometry done" />
+    <MESSAGE value="Global variables are removed" />
+    <MESSAGE value="Modularized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modularized" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -579,49 +652,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FlowAndLooping-Chapter4/Pblm21.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlowAndLooping-Chapter4/Pblm23.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlowAndLooping-Chapter4/Pblm24.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlowAndLooping-Chapter4/Pblm23_udf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Numpy-Chapter9/Theory">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals-Chapter3/comments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals-Chapter3/welcome_vinny.py" />
     <entry file="file://$PROJECT_DIR$/Numpy-Chapter9/hospital.py" />
     <entry file="file://$PROJECT_DIR$/Numpy-Chapter9/Q6.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -887,10 +917,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Module-Chapter8/example.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module-Chapter8/consumer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/+2/question_paper_reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/+2/total_reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/+2/constraint_reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/+2/data_file_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/+2/PrepareQuestionPaper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/+2/printQuestions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
