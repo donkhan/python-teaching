@@ -4,10 +4,6 @@ def factorial(n):
         product = product * i
     return product
 
-print(factorial(5))
 
-#5c2
+print(factorial(12)//(factorial(6)*factorial(6))/7)
 
-print(factorial(5)//(factorial(3)*factorial(2)))
-
-a,b = a+b,b+c
