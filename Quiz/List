@@ -1,0 +1,26 @@
+P1: Add, Subtract, Multiply and Divide the nos alternatively in a given list
+    Ex : Input [1,5,6,2,4,5,2,3] - 1 + 5 - 6 * 2 % 4 +5 - 2 + 3
+         Output : 6
+
+P2: Remove the non prime no's in the given list.
+    Ex: [2,3,7,9,13,45,51,67,72]
+    Output: [2,3,7,13,67]
+
+P3:  Find the words which are palindrome from the given list
+    Ex: [ "MADAM","PIPE","MALAYALAM"]
+    Output: MADAM, MALAYALAM
+    Palindrome: if you read forward or backward, the word would be the same.
+
+P4: Flatten out the given list
+    Ex: [1,2,3,4,[6,1,2],[2,3]]
+    Output: [1,2,3,4,6,1,2,2,3]
+
+P5: Write a Python program to get unique values from a listWrite a Python program to get unique values from a list
+    Ex: [1,2,3,1,2,5,6]
+    Output: [1,2,3,5,6]
+
+P6:
+
+
+
+
