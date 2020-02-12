@@ -14,9 +14,11 @@ l = list(itertools.permutations(['Vannila','Chocolate','Strawberry'],2))
 print(l)
 print(len(l))
 
-for c in itertools.cycle(['A','B']):
-    print c
 
+'''
+for c in itertools.cycle(['A','B']):
+    print(c)
+'''
 
 
 
